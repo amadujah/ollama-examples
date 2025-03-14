@@ -1,0 +1,12 @@
+﻿services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/usr/src/app/models
+    restart: unless-stopped
+
+volumes:
+  ollama_models:
