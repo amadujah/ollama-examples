@@ -1,3 +1,6 @@
+# Console Application to run ollama with docker using microsoft AI extensions
+More examples are available here https://github.com/dotnet/ai-samples/blob/main/src/microsoft-extensions-ai/ollama/OllamaExamples/README.md
+
 ## Steps to Run the App
 
 ### 1. Run Ollama Model
@@ -18,4 +21,4 @@ Execute the following command to load a model into the running Ollama container:
 
 Models are available here: https://ollama.com/library.
 
-### 3. Run Your Console Application:
+### 3. Now your can run your console application to chat with your assistant
